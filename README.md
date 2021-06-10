@@ -46,6 +46,7 @@ The dataset reveals total 32 team wins through week 1 through 17 display on race
     2. Chart will update every week score for each teams.
 
 ## MIKE TYBURCZY BUBBLE GRAPH
+![NFL Bubble](static/images/mike-bubble.png)
 
 For this chart, we used D3 to create a categorized bubble chart.  To get all of the data needed, we combined two of the JSON files pulled from the API and added a column with the logo URLs using pandas and then read it into the app.js file as a CSV.  The default view shows all 32 NFL teams in one cluster with the logo size corresponding to the number of wins each team had in the 2020 season.  You can see the difference in size between the Jaguars who had 1 win and the Chiefs who had 14. To get the logos into the circles we appended the image url to pattern and def tags and then used the fill style to fill the circles with images instead of colors.  You can use the buttons in the top left to view the chart categorized by conference and then also by Division.  We also added the Tool Tip to the visualization showing additional season stats such as wins, score, points allowed, time of possession, penalty yards, and turnover differential.  The Tool Tip shows when a logo is clicked and hides when you mouseover anywhere else within the SVG. 
 
@@ -59,6 +60,8 @@ With geojson data retrieved from https://github.com/sisskind/GeoJSON-Football/bl
 The map has three (3) base layers; Street, Dark and Satelite Map. With a collapsable control panel, users can pick which layer they want to view. The popups show important information on the team/teams that play in these stadiums, Stadium name, Conference as well as the Team logo. 
 
 ## DAVID THOMPSON SUNBURST CHART
+
+![NFL Sunburst](static/images/sunburst_chart.png)
 
 Sunburst Chart — also known as Ring Chart, Multi-level Pie Chart, and Radial Treemap — is typically used to visualize hierarchical data structures.
 
