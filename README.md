@@ -1,6 +1,6 @@
 # NFL Data Visualization
 
-![NFL](static/images/NationalFootballLeague.gif) 
+![NFL](static/images/NationalFootballLeague.gif)                                               ![Lombardi Trophy](static/images/Trophy.gif)
 
 Welcome to our 2020 NFL Dashboard. Our team’s love of sports inspired us to create a dashboard that would be beneficial to the user and provide a reference point as we approach the 2021 season. The main objective was to collect data from the 2020 NFL season and provide you with an interactive experience that will provide insight and comparison from this past season. Below you will find visualizations that return team statistics, the league leaders in wins on a week to week basis and each teams 2020 season outcome. You also have access to a map with the locations for each team’s stadiums. Thank you for visiting!
 

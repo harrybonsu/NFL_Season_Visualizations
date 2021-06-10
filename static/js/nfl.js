@@ -123,13 +123,13 @@ L.control.layers(baseMaps).addTo(myMap);
     // Call on each feature
       onEachFeature: function (feature, layer) {
         if (feature.properties.Team === "Los Angeles Rams / Chargers" || feature.properties.Team === "New York Jets / Giants") {
-          layer.bindPopup("<h2>" + feature.properties.Team + "</h2> <hr> <h3> Stadium: " +
-          feature.properties.Stadium + "</h3> <h3> Conference: " + feature.properties.Conference + "</h3>" +
+          layer.bindPopup("<h4>" + feature.properties.Team + "</h4> <hr> <h6> Stadium: " +
+          feature.properties.Stadium + "</h6> <h6> Conference: " + feature.properties.Conference + "</h6>" +
           `<img src=${getImage(feature.properties.Team)[0]} width='100px' />` + `<img src=${getImage(feature.properties.Team)[1]} width='100px' />`);
         }
         else {
-          layer.bindPopup("<h2>" + feature.properties.Team + "</h2> <hr> <h3> Stadium: " +
-            feature.properties.Stadium + "</h3> <h3> Conference: " + feature.properties.Conference + "</h3>" +
+          layer.bindPopup("<h4>" + feature.properties.Team + "</h4> <hr> <h6> Stadium: " +
+            feature.properties.Stadium + "</h6> <h6> Conference: " + feature.properties.Conference + "</h6>" +
             `<img src=${getImage(feature.properties.Team)} width='100px' />`);
       }
     }
