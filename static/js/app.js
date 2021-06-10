@@ -1216,23 +1216,6 @@ d3.json("./static/data/NFLscores.json", function(data){
 
     });
     
-    // var series = chart.series.push(new am4charts.ColumnSeries());
-    // series.dataFields.categoryY = "team";
-    // series.dataFields.valueX = "win";
-    // series.tooltipText = "{valueX.value}"
-    // series.columns.template.strokeOpacity = 0;
-    // series.columns.template.column.cornerRadiusBottomRight = 5;
-    // series.columns.maxColumns = 1
-    // series.columns.template.column.cornerRadiusTopRight = 5;
-    // series.interpolationDuration = stepDuration;
-    // series.interpolationEasing = am4core.ease.linear;
-    // var labelBullet = series.bullets.push(new am4charts.LabelBullet())
-    // labelBullet.label.horizontalCenter = "right";
-    // labelBullet.label.text = "{values.valueX.workingValue}";
-    // labelBullet.label.textAlign = "end";
-    // labelBullet.label.dx = -10;
-    // labelBullet.label.maxColumns = 1;
-    // chart.zoomOutButton.disabled = true;
     
     // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
       series.columns.template.adapter.add("fill", function (fill, target) {
