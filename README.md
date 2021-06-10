@@ -34,11 +34,11 @@ After a few adjustments to the x and y values for each bar, the graph was ready 
 In This Project, We have build an interactive dasboard to explore the NFL Team wins stats.
 
 The dataset reveals total 32 team wins through week 1 through 17 display on race bar chart.
-### Step 1: Read dataset and cleaning
+#### Step 1: Read dataset and cleaning
 
     1.  we have used D3 library to read NFL Score json file.
     2.  we use for loop to collect Array of teams and wins per weeks.
-### Step 2: AmCharts
+#### Step 2: AmCharts
 
     1. use AmCharts to display race chart with image display.
         * y axis display 'Team Abbr'
