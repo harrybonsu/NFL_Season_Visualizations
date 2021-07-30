@@ -16,7 +16,7 @@ Now that we have covered the source and method to obtain the data, we will begin
 
 I created the diverging bar chart seen at the top left of the visualization window. I wanted to provide someone visiting our page a snapshot of key statistics from each team. In order to build my visualization, I used the ![2020_season_stats.json](static/data/2020_season_stats.json) dataset obtained from the sportsdata.io. This dataset is an array of object, with each object representing a team. For each team, sportsdata.io has collected season totals for a lot of team statistics. My first objective was to read through the dataset and pick statistics that I believed would be useful to the user. The statistics I chose were:
 
-        [Touchdowns, Passing Yards, Completion Percentage, Rushing Yards per game, Receiving Yards per game, Points Scored, Firstdowns, Fumbles, Turnovers, Penailties, Sacks and Points Allowed]
+[Touchdowns, Passing Yards, Completion Percentage, Rushing Yards per game, Receiving Yards per game, Points Scored, Firstdowns, Fumbles, Turnovers, Penailties, Sacks and Points Allowed]
 
 Once I decided on the variables I wanted to include in my visualization, I had to extract them from the dataset. I used a for loop to iterate through each object and used an if statement to locate a specific object based on team abbreviation. For example, "NYJ" for the New York Jets. Inside each for loop I created a pushed each variable to a new object named teamStats (app.js line 106). 
 
