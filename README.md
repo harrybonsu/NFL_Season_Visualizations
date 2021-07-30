@@ -1,4 +1,4 @@
-# NFL Data Visualization
+# NFL Season Visualization
 
 ![NFL](static/images/NationalFootballLeague.gif)                                               ![Lombardi Trophy](static/images/Trophy.jpg)
 
